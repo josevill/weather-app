@@ -1,0 +1,60 @@
+body {
+  background: #1192d3;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 95vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.whitey {
+  background: transparent;
+}
+
+h1,
+h2 {
+  margin: 0 0 8px;
+  color: #fff;
+  font-size: 100px;
+  font-weight: 200;
+  text-align: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  background: #fff;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 5px;
+  display: inline-block;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: transparent;
+}
+
+.btn-weather {
+  display: block;
+  margin: 15px auto;
+  width: 140px;
+  padding: 5px;
+  
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+}
+
+.footer h4 {
+  color: #fff;
+}
